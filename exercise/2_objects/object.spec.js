@@ -2,7 +2,8 @@
 * Transform list to object where the key is id as a string
 * Reduce could help
 *
-* To run tests with file watching run: yarn jest exercise/objects/object.spec.js -- --watch
+* To run tests with file watching run:
+* yarn jest exercise/2_objects/object.spec.js -- --watch
 */
 const names = [
   {

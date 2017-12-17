@@ -1,6 +1,7 @@
 /*
 * Try to resolve reference problem. Person should't change after mutate personCopy.
-* To run tests with file watching run: yarn jest exercise/objects/reference.spec.js -- --watch
+* To run tests with file watching run:
+* yarn jest exercise/2_objects/reference.spec.js -- --watch
 *
 */
 
