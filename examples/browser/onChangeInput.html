@@ -1,0 +1,16 @@
+<html>
+  <head></head>
+  <body>
+    <input name="myInput" />
+
+    <script>
+      const myInput = document.querySelector('input[name="myInput"]');
+      function onChangeValue(e){
+        console.log(e);
+        console.log(e.target.value);
+      }
+
+      myInput.addEventListener('input', onChangeValue, false);
+    </script>
+  </body>
+</html>

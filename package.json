@@ -1,0 +1,21 @@
+{
+  "name": "alpiq-energy",
+  "version": "0.0.0",
+  "description": "Course material for JavaScript course",
+  "main": "index.js",
+  "author": "Antonin Hackenberg",
+  "license": "MIT",
+  "scripts": {
+    "test": "yarn jest .",
+    "test:watch": "yarn jest . -- --watch"
+  },
+  "dependencies": {
+    "eslint": "^4.13.1",
+    "jest": "^21.2.1",
+    "typescript": "^2.6.2"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
