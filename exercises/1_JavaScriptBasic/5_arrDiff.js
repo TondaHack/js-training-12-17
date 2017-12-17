@@ -1,7 +1,7 @@
 /*
  * Write code that show difference between two arrays arr1 - arr2
  * Filter method could help
- * Run in terminal node exercise/1_JavaScriptBasic/5_function.js
+ * Run in terminal node exercises/1_JavaScriptBasic/5_arrDiff.js
  */
 const arrayDiff = (arr1, arr2) => { // eslint-disable-line no-unused-vars
   return [];

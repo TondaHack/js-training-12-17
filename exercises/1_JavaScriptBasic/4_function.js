@@ -1,7 +1,7 @@
 /*
  * Write code that find max and min in array
  * Object Math and method apply could help
- * Run in terminal node exercise/1_JavaScriptBasic/4_function.js
+ * Run in terminal node exercises/1_JavaScriptBasic/4_function.js
  */
 const findMax = arr => ({
   min: arr,

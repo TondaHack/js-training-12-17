@@ -7,7 +7,7 @@
  *
  * Be careful with decimals
  * String object could be helpful https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
- * Run in terminal node exercise/1_JavaScriptBasic/3_function.js
+ * Run in terminal node exercises/1_JavaScriptBasic/3_function.js
  */
 const addNumbers = (x, y) => {
   return x + y;

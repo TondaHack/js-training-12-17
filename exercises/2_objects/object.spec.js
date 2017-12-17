@@ -3,7 +3,7 @@
 * Reduce could help
 *
 * To run tests with file watching run:
-* yarn jest exercise/2_objects/object.spec.js -- --watch
+* yarn jest exercises/2_objects/object.spec.js -- --watch
 */
 const names = [
   {
