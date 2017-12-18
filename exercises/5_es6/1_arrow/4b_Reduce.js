@@ -19,5 +19,5 @@ it('returns hashed persons by ids', () => {
     '1': 'John',
     '2': 'Alex',
     '3': 'Marina'
-  })
-})
+  });
+});

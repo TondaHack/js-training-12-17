@@ -24,5 +24,5 @@ it('returns result after some time', (done) => {
       console.log('catched error', err);
       return Promise.all([delay(100), delay(200)]);
     })
-    .then(() => done())
+    .then(() => done());
 });

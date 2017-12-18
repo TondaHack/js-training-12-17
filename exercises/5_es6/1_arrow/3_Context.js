@@ -19,9 +19,9 @@ const data = new DataSource();
 const ctrs = new FooCtrl(data);
 
 it('returns user age', () => {
-  expect(data.user.age).toEqual(ctrs.user.age)
+  expect(data.user.age).toEqual(ctrs.user.age);
 });
 
 it('returns user name', () => {
-  expect(data.user.name).toEqual(ctrs.user.name)
+  expect(data.user.name).toEqual(ctrs.user.name);
 });

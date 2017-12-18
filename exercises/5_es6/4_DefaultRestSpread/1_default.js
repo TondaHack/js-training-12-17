@@ -11,13 +11,13 @@ function getName(firstName, lastName) {
 }
 
 it('returns correct name and last name', () => {
-  expect(getName('Eva', 'Tester')).toEqual('Mr/Mrs Eva Tester')
-})
+  expect(getName('Eva', 'Tester')).toEqual('Mr/Mrs Eva Tester');
+});
 
 it('returns default values', () => {
-  expect(getName()).toEqual('Mr/Mrs')
-})
+  expect(getName()).toEqual('Mr/Mrs');
+});
 
 it('returns default values', () => {
-  expect(getName(undefined, undefined)).toEqual('Mr/Mrs')
-})
+  expect(getName(undefined, undefined)).toEqual('Mr/Mrs');
+});
