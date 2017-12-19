@@ -27,4 +27,4 @@ const args = [1, 2, 3, { foo: 'bar' }]
 it('returns correct rest arguments with passing dynamic arguments', () => {
   expect(getAllArgs(...args).restArguments)
     .toEqual([3, { foo: 'bar' }]);
-});;
+});
